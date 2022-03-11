@@ -1,0 +1,102 @@
+/* App component */
+#quote-container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#quote-container #quote-box {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+#quote-container footer {
+  padding: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+#quote-container footer a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
+#quote-container footer a:hover {
+  color: #f3e4b4;
+  -webkit-transform: translateY(0.5rem);
+          transform: translateY(0.5rem);
+}
+
+/* Quotes & Author component */
+#quoteandauthor #text,
+#quoteandauthor #author {
+  padding: 0 0 20px 0;
+}
+
+#quoteandauthor #text {
+  font-size: 1.75rem;
+}
+
+#quoteandauthor #author {
+  font-size: 1.15rem;
+  font-style: italic;
+  text-align: end;
+}
+
+/* Buttons component */
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons #tweet-quote,
+.buttons #facebook-quote {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.buttons #tweet-quote:hover,
+.buttons #facebook-quote:hover {
+  opacity: 0.9;
+}
+
+.buttons #new-quote {
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.buttons #new-quote:hover {
+  opacity: 0.9;
+}
+/*# sourceMappingURL=style.css.map */
